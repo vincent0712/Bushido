@@ -5,9 +5,9 @@ using UnityEngine;
 public class Ai_Moving : MonoBehaviour
 {
     public GameObject player;
-    public float speed;
-
-    private float distance;
+    private float Enemyspeed = 3f;
+    public Transform targetObject;
+    public float distance;
     void Start()
     {
         
@@ -16,9 +16,25 @@ public class Ai_Moving : MonoBehaviour
     
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        
-        transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+        float distanceToTarget = Vector2.Distance(transform.position, targetObject.position);
+        if (distanceToTarget > 2f)
+        {
+            Enemyspeed = 3f;
+
+            distance = Vector2.Distance(transform.position, player.transform.position);
+            Vector2 direction = player.transform.position - transform.position;
+
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, Enemyspeed * Time.deltaTime);
+        }
+        else
+        {
+            Enemyspeed = 1f;
+            distance = Vector2.Distance(transform.position, player.transform.position);
+            Vector2 direction = player.transform.position - transform.position;
+
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, Enemyspeed * Time.deltaTime);
+        }
     }
 }
+
+
