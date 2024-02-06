@@ -557,6 +557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tortol_Kappa_6 1 1 1
       objectReference: {fileID: 0}
+    - target: {fileID: 189031144607868984, guid: 37d6b509651f67547a1ecad11ed3fb54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 769997736787644523, guid: 37d6b509651f67547a1ecad11ed3fb54, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.463
