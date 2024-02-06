@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1011531558}
-  smoothing: 5
+  smoothing: 10
 --- !u!1 &704248243
 GameObject:
   m_ObjectHideFlags: 0
