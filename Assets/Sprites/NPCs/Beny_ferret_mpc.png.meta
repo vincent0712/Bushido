@@ -131,7 +131,7 @@ TextureImporter:
         width: 19
         height: 32
       alignment: 9
-      pivot: {x: 0.4589615, y: 0.47807014}
+      pivot: {x: 0.4889701, y: 0.4903486}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,8 +151,8 @@ TextureImporter:
         y: 32
         width: 21
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.44117284, y: 0.4903486}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,18 +189,18 @@ TextureImporter:
       name: Beny_ferret_mpc_3
       rect:
         serializedVersion: 2
-        x: 8
+        x: 6
         y: 0
-        width: 17
+        width: 19
         height: 32
-      alignment: 9
-      pivot: {x: 0.3945074, y: 0.48294345}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6739ae30f17238441a29423f88ce30f7
+      spriteID: 3cb853936e17a734c9eb27b895f4ac20
       internalID: 84622676
       vertices: []
       indices: 
