@@ -18,7 +18,7 @@ public class PlayerAttack : MonoBehaviour
         {
 
             animator.SetBool("isAttacking", true);
-
+            
         }
         else
         {
