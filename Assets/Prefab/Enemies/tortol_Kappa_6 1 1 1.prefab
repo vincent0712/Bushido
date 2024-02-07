@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5164604755907600371}
   - component: {fileID: 5387505100088597734}
   - component: {fileID: -4757816659164009615}
-  - component: {fileID: 5579776923297518864}
+  - component: {fileID: -5010450630005060592}
   m_Layer: 0
   m_Name: tortol_Kappa_6 1 1 1
   m_TagString: Untagged
@@ -125,7 +125,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.31}
+    oldSize: {x: 1.125, y: 1.9375}
     newSize: {x: 0.18, y: 0.31}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -317,7 +317,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5579776923297518864
+--- !u!114 &-5010450630005060592
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -326,11 +326,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 189031144607868984}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d84812176fabedf488f9750ac437cc6b, type: 3}
+  m_Script: {fileID: 11500000, guid: e6b1cc28023875e4d911c2f66ba10f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  maxHealth: 100
+  Enemyhealth: 50
+  EnemymaxHealth: 50
   isDead: 0
   deathEffect: {fileID: 0}
   hurtSound: {fileID: 0}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ai_Moving : MonoBehaviour
 {
     public GameObject player;
-    private float Enemyspeed = 0f;
+    public float Enemyspeed = 0f;
     public Transform targetObject;
     public float distance;
     void Start()
