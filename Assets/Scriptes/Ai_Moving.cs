@@ -17,9 +17,9 @@ public class Ai_Moving : MonoBehaviour
     void Update()
     {
         float distanceToTarget = Vector2.Distance(transform.position, targetObject.position);
-        if (distanceToTarget > 2f)
+        if (distanceToTarget > 0.2f)
         {
-            Enemyspeed = 3f;
+            Enemyspeed = 2f;
 
             distance = Vector2.Distance(transform.position, player.transform.position);
             Vector2 direction = player.transform.position - transform.position;
@@ -28,7 +28,7 @@ public class Ai_Moving : MonoBehaviour
         }
         else
         {
-            Enemyspeed = 1f;
+            Enemyspeed = 0f;
             distance = Vector2.Distance(transform.position, player.transform.position);
             Vector2 direction = player.transform.position - transform.position;
 
