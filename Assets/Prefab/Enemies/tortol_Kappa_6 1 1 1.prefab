@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5164604755907600371}
   - component: {fileID: 5387505100088597734}
   - component: {fileID: -4757816659164009615}
-  - component: {fileID: -5072638900579308417}
+  - component: {fileID: 5579776923297518864}
   m_Layer: 0
   m_Name: tortol_Kappa_6 1 1 1
   m_TagString: Untagged
@@ -317,7 +317,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-5072638900579308417
+--- !u!114 &5579776923297518864
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Arrow : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Arrow : MonoBehaviour
     public int damage = 10;
     public float lifeTime = 3f;
     public float knockBack = 3f;
+    
     void Start()
     {
         GetComponent<Rigidbody2D>().AddForce(transform.right * Arrowspeed, ForceMode2D.Impulse);
