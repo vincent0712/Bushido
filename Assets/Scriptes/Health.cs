@@ -33,14 +33,14 @@ public class Health : MonoBehaviour
             onDeath = new UnityEvent();
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(int damage)
     {
         // Don't do anything if dead
         if (isDead)
             return;
 
         // Reduce health by amount of damage
-        health -= amount;
+        health -= damage;
 
         // Is dead?
         if (health <= 0)
