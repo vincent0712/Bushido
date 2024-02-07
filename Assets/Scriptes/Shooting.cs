@@ -24,7 +24,7 @@ public class Shooting : MonoBehaviour
     void Update()
     {
         // One shoot
-        if (Input.GetButtonDown("Fire"))
+        if (Input.GetButtonDown("Fire 1"))
         {
             if (ammo > 0)
             {
