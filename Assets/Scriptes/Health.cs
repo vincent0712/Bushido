@@ -48,8 +48,8 @@ public class Health : MonoBehaviour
             isDead = true;
 
             // Instatiate death particles
-            //if (deathEffect != null)
-                //Instantiate(deathEffect, transform.position, transform.rotation);
+            if (deathEffect != null)
+                Instantiate(deathEffect, transform.position, transform.rotation);
 
             // Play death animation
             //if (animator != null)
