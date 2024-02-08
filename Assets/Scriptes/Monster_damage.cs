@@ -10,7 +10,7 @@ public class Monster_Damage_tortur : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            //health.TakeDamage(damage);
+            health.TakeDamage(damage);
         }
     }
 }
