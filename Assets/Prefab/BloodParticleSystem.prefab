@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3447460029137253900}
   - component: {fileID: 4305630909481139530}
   - component: {fileID: 7846148544357707777}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: BloodParticleSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4777,7 +4777,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 07071d633b8171944af486e302a111ba, type: 2}
+  - {fileID: 2100000, guid: b44845c3796bf824cae97c86374916f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

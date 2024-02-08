@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478a82cceb936214f9edde5952903823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7
   lastDir: {x: 0, y: 0}
 --- !u!114 &8861684648396249130
 MonoBehaviour:
