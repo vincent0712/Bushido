@@ -328,7 +328,6 @@ GameObject:
   m_Component:
   - component: {fileID: 656668776}
   - component: {fileID: 656668775}
-  - component: {fileID: 656668777}
   - component: {fileID: 656668778}
   - component: {fileID: 656668779}
   m_Layer: 0
@@ -367,7 +366,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -403,22 +402,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1011531558}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &656668777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656668774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4844f9a8067f96e408151ea89b4914f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teleportTarget: {fileID: 656668776}
-  SwordHitBox: {fileID: 656668774}
-  damage: 0
-  health: {fileID: 0}
 --- !u!212 &656668778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -629,7 +612,19 @@ MonoBehaviour:
   deathSound: {fileID: 0}
   onTakeDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDeath:
     m_PersistentCalls:
       m_Calls: []
@@ -850,7 +845,8 @@ PrefabInstance:
       propertyPath: playerController
       value: 
       objectReference: {fileID: 1011531554}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4658743103940910506, guid: 4001f2db2496bc546818aeaf29acb0c2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4495044463466607478, guid: 4001f2db2496bc546818aeaf29acb0c2, type: 3}
