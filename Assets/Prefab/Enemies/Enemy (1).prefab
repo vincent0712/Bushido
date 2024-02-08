@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: 1538195860, guid: 704f28191e9f1584093c8589ac94d641, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
   health: 500
   maxHealth: 50
   isDead: 0
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 8554722844893833421, guid: 81bf0e42d5a041a4ba9b715968c1094a, type: 3}
   hurtSound: {fileID: 0}
   deathSound: {fileID: 0}
   onTakeDamage:
