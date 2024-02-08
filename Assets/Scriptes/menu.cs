@@ -2,16 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class MainMenu : MonoBehaviour 
+/*
+public class menu : MonoBehaviour
 {
-    string Map;
     
-    public void GotoScene(string Map)
+    public void GotoScene(string sceneName)
     {
-        SceneManager.LoadScene(Map);
+        SceneManager.LoadScene(sceneName);
     }
-
+    
     public void RestartScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -22,5 +21,5 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-
 }
+*/
