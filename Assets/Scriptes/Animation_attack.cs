@@ -16,13 +16,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0)) // Assuming left mouse button is used for attack
         {
-
-            animator.SetBool("isAttacking", true);
-            
-        }
-        else
-        {
-            animator.SetBool("isAttacking", false);
+            animator.SetTrigger("isAttacking");
         }
        
     }

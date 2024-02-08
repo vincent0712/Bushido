@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
@@ -16,3 +16,4 @@ public class HealthBar : MonoBehaviour
         slider.value = health; // Set the current value of the slider to the current health
     }
 }
+*/

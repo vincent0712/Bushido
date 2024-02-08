@@ -1,16 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Monster_Damage_tortur : MonoBehaviour
 {
+    public UnityEvent onTakeDamage;
     public int damage;
-    public Health health;
-    private void OnCollisionEnter2D(Collision2D collision)
+    public int health;
+    private void OnCollision2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && (Input.GetKeyDown(KeyCode.Mouse0)))
         {
-            health.TakeDamage(damage);
+            if ( health <= 0f)
+            {
+                Destroy(gameObject);
+            }
+                
+            health -= damage;
+
         }
-    }
+        
+            
 }
+    }
