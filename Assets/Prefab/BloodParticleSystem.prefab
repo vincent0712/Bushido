@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3447460029137253900}
   - component: {fileID: 4305630909481139530}
   - component: {fileID: 7846148544357707777}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: BloodParticleSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
