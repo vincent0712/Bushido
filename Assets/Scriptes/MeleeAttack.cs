@@ -20,7 +20,7 @@ public class MeleeAttack : MonoBehaviour
     void Update()
     {
 
-        SwordHitBox.transform.localPosition = playerController.lastDir * 1.0f; 
+        SwordHitBox.transform.localPosition = playerController.lastDir * 1.5f; 
 
         /*
         if (Input.GetKeyDown(KeyCode.D))
