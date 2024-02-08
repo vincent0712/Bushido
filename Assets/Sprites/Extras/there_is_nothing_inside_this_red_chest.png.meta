@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0bcd056014b83b49ad32c6f1128d020
+guid: c0fed9d78881483488e9dcd647742ac2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,55 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: not_dead_rocks_with_snow_0
+      name: there_is_nothing_inside_this_red_chest_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 32
-        width: 14
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1c2936db48691547aedf79a40ce5585
-      internalID: 187015757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: not_dead_rocks_with_snow_1
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 32
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d67630ed77d5c074cabffca4700a04eb
-      internalID: -1924935611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: not_dead_rocks_with_snow_2
-      rect:
-        serializedVersion: 2
-        x: 2
+        x: 3
         y: 0
-        width: 29
-        height: 24
+        width: 26
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4b72a5533534114992660ca1bddf99f
-      internalID: 251395262
+      spriteID: 27c5ccdfa482b4245874ecdbff0db9de
+      internalID: -2108014530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: not_dead_rocks_with_snow_3
+      name: there_is_nothing_inside_this_red_chest_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 6
-        width: 15
-        height: 17
+        x: 36
+        y: 0
+        width: 26
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59dc570b05ea7fd40b11245f4b64182f
-      internalID: 393750125
+      spriteID: 13d767429e9eedf41a3475d94ed3736e
+      internalID: 1817932549
       vertices: []
       indices: 
       edges: []
@@ -217,10 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      not_dead_rocks_with_snow_0: 187015757
-      not_dead_rocks_with_snow_1: -1924935611
-      not_dead_rocks_with_snow_2: 251395262
-      not_dead_rocks_with_snow_3: 393750125
+      there_is_nothing_inside_this_red_chest_0: -2108014530
+      there_is_nothing_inside_this_red_chest_1: 1817932549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
