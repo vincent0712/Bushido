@@ -128,9 +128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441365d8c0e680c40baa8547e9a04f71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2526144858807812637, guid: 4001f2db2496bc546818aeaf29acb0c2, type: 3}
   Enemyspeed: 0
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 4495044463466607478, guid: 4001f2db2496bc546818aeaf29acb0c2, type: 3}
   distance: 2
 --- !u!82 &7279002893098253325
 AudioSource:
