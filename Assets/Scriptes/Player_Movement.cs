@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
             //flip character
             spriteRenderer.flipX = moveDir.x > 0f ? false : true;
 
-            lastDir = moveDir;
+            lastDir = moveDir.normalized;
         }
         animator.SetBool("moving", moveDir.sqrMagnitude > 0.01f ? true : false);
     }

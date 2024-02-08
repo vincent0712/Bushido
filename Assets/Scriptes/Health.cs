@@ -48,20 +48,20 @@ public class Health : MonoBehaviour
             isDead = true;
 
             // Instatiate death particles
-            if (deathEffect != null)
-                Instantiate(deathEffect, transform.position, transform.rotation);
+            //if (deathEffect != null)
+                //Instantiate(deathEffect, transform.position, transform.rotation);
 
             // Play death animation
-            if (animator != null)
-                animator.SetTrigger("dead");
+            //if (animator != null)
+                ///animator.SetTrigger("dead");
 
             // Play death sound
-            if (deathSound != null)
-                audioSource.PlayOneShot(deathSound);
+            //if (deathSound != null)
+                //audioSource.PlayOneShot(deathSound);
 
             // stop updating navmesh for objects with pathfinding
-            if (nav != null)
-                nav.isStopped = true;
+            //if (nav != null)
+                //nav.isStopped = true;
 
             onDeath.Invoke();
         }
@@ -69,13 +69,14 @@ public class Health : MonoBehaviour
         else
         {
             // Play hurt sound effect
+            /*
             if (hurtSound != null)
                 audioSource.PlayOneShot(hurtSound);
 
             // Play hit animation
             if (animator != null)
                 animator.SetTrigger("hit");
-
+            */
             onTakeDamage.Invoke();
         }
     }

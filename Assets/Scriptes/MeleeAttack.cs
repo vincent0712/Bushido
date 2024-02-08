@@ -10,11 +10,19 @@ public class MeleeAttack : MonoBehaviour
     public Transform teleportTarget;
     public GameObject SwordHitBox;
     public int damage;
-    public Health health;
+    private PlayerController playerController;
+
+
+    private void Start()
+    {
+        playerController = GetComponentInParent<PlayerController>();
+    }
     void Update()
     {
 
+        SwordHitBox.transform.localPosition = playerController.lastDir * 1.0f; 
 
+        /*
         if (Input.GetKeyDown(KeyCode.D))
         {
             SwordHitBox.transform.localPosition = new Vector3(1.15f, -0.01f, 0f);
@@ -40,7 +48,7 @@ public class MeleeAttack : MonoBehaviour
             
 
         }
-
+        */
         
 
        
@@ -52,6 +60,8 @@ public class MeleeAttack : MonoBehaviour
         if (collision.transform.CompareTag("Enemy"))
         {
             Debug.Log("Hit enemy");
+            collision.transform.GetComponent<Health>().TakeDamage(damage);
+
 
         }
     }
