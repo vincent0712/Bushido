@@ -295,6 +295,12 @@ MonoBehaviour:
   hp: 100
   attackDmg: 100
   isDead: 0
+  onTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
