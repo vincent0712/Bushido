@@ -22,12 +22,14 @@ public class PlayerHit : MonoBehaviour
         {
             isHitted = true;
             StartCoroutine("SwitchColor");
+
         }
     }
 
     IEnumerator SwitchColor()
     {
         sr.color = new Color(1f, 0.30196078f, 0.30196078f);
+
         yield return new WaitForSeconds(timeToColor);
         sr.color = defaultColor;
         isHitted = false;
