@@ -288,8 +288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d84812176fabedf488f9750ac437cc6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 500
-  maxHealth: 50
+  health: 50
+  maxHealth: 10
   isDead: 0
   deathEffect: {fileID: 8554722844893833421, guid: 81bf0e42d5a041a4ba9b715968c1094a, type: 3}
   hurtSound: {fileID: 0}
