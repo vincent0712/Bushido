@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7952409603190384437}
   - component: {fileID: 5998695706445928337}
   - component: {fileID: 6996912866980490487}
+  - component: {fileID: 6010822168900626097}
   m_Layer: 0
   m_Name: another_house_this_time_with_snow
   m_TagString: Untagged
@@ -143,3 +144,19 @@ PolygonCollider2D:
       - {x: 2.3882697, y: -1.040024}
       - {x: 2.821261, y: -0.8569535}
   m_UseDelaunayMesh: 0
+--- !u!114 &6010822168900626097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5157410731978469552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

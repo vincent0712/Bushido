@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9218063102356665430}
   - component: {fileID: 4669631880300008843}
   - component: {fileID: 5186076866268107203}
+  - component: {fileID: 1335015372323383366}
   m_Layer: 0
   m_Name: kittyshop
   m_TagString: Untagged
@@ -187,3 +188,19 @@ PolygonCollider2D:
       - {x: 1.875, y: -0.5625}
       - {x: 2, y: -0.5625}
   m_UseDelaunayMesh: 0
+--- !u!114 &1335015372323383366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4813187097510554597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

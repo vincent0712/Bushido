@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4280055224845283775}
   - component: {fileID: 842586588353659319}
   - component: {fileID: 2799165282060735571}
+  - component: {fileID: -3175372157285918779}
   m_Layer: 0
   m_Name: decapitated_trees_1
   m_TagString: Untagged
@@ -138,3 +139,19 @@ PolygonCollider2D:
       - {x: 0.34375, y: -0.09108281}
       - {x: 0.28836727, y: 0.2795564}
   m_UseDelaunayMesh: 0
+--- !u!114 &-3175372157285918779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8071737554265853421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

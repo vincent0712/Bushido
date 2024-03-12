@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4759340559808199184}
   - component: {fileID: 3966466578140854440}
   - component: {fileID: 5600607013969563834}
+  - component: {fileID: 3814414876969883406}
   m_Layer: 0
   m_Name: bad_trees_map_3
   m_TagString: Untagged
@@ -168,3 +169,19 @@ PolygonCollider2D:
       - {x: -0.04168558, y: -0.53313017}
       - {x: 0.15791559, y: -0.52689826}
   m_UseDelaunayMesh: 0
+--- !u!114 &3814414876969883406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214430524330484373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

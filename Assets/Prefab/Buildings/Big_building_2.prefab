@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2549288882745560459}
   - component: {fileID: 483163427286948519}
   - component: {fileID: 7424038146831444130}
+  - component: {fileID: -3756652209970460164}
   m_Layer: 0
   m_Name: Big_building_2
   m_TagString: Untagged
@@ -147,3 +148,19 @@ PolygonCollider2D:
       - {x: 2.1489277, y: 0.3486793}
       - {x: 2.1974459, y: 3.3391483}
   m_UseDelaunayMesh: 0
+--- !u!114 &-3756652209970460164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6154111542333288421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

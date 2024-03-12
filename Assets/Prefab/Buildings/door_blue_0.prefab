@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1703589489596431869}
   - component: {fileID: 6589911370237197137}
   - component: {fileID: 4735069850280382766}
+  - component: {fileID: 860808325457666664}
   m_Layer: 0
   m_Name: door_blue_0
   m_TagString: Untagged
@@ -211,3 +212,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &860808325457666664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4841617954345515020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
