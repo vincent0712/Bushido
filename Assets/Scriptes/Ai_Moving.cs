@@ -1,28 +1,4 @@
-using System;
-using UnityEngine.AI;
-using UnityEngine;
 
-int maxValue;
-int[] numbers = new int[] { 1, 5, 3, 7, 5, 6, 7, 8, 9, 1, };
-Array.Sort(numbers);
-Array.Reverse(numbers);
-for (int i = 0; i < numbers.Length - 2; i++)
-{
-    maxValue = numbers[i] + numbers[i + 1] + numbers[i + 2];
-
-    //Console.WriteLine($"{numbers[i]}, {numbers[i + 1]}, {numbers[i + 2]}");
-    Console.ForegroundColor = ConsoleColor.DarkRed;
-    maxValue = numbers[i] + numbers[i + 1] + numbers[i + 2];
-    Console.WriteLine($"{numbers[i]}, {numbers[i + 1]}, {numbers[i + 2]}");
-    Console.WriteLine($"{maxValue}");
-    Console.ForegroundColor = ConsoleColor.White;
-    foreach (int nr in numbers)
-    {
-        Console.Write(nr);
-    }
-
-    break;
-}
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
