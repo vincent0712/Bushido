@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7040591970005638247}
   - component: {fileID: 2590457406138133120}
   - component: {fileID: 8246448507500329844}
+  - component: {fileID: -5298645106493316457}
   m_Layer: 0
   m_Name: door_blue_1
   m_TagString: Untagged
@@ -197,3 +198,19 @@ PolygonCollider2D:
       - {x: 2.749864, y: 0.9340367}
       - {x: 2.8123398, y: 0.93482476}
   m_UseDelaunayMesh: 0
+--- !u!114 &-5298645106493316457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6746944681427688011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3711600621297638000}
   - component: {fileID: 4195111482210075817}
   - component: {fileID: 4314541285643065958}
+  - component: {fileID: 8587049348049262502}
   m_Layer: 0
   m_Name: not_dead_rocks_2
   m_TagString: Untagged
@@ -145,3 +146,19 @@ PolygonCollider2D:
       - {x: 0.8479953, y: 0.22237682}
       - {x: 0.4123037, y: 0.6507863}
   m_UseDelaunayMesh: 0
+--- !u!114 &8587049348049262502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199495122857299923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

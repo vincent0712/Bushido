@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class Arrow : MonoBehaviour
 {
-    public float Arrowspeed;
+    public float Arrowspeed = 10f;
     public int damage = 10;
     public float lifeTime = 3f;
     public float knockBack = 3f;
@@ -19,7 +19,7 @@ public class Arrow : MonoBehaviour
     // Triggers if one or both colliders is triggers
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Enemy"))
             return;
 
         // Try get health from colliding object

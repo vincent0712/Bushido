@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7169002113873505188}
   - component: {fileID: 3175877131456547106}
   - component: {fileID: 2774150725493761347}
+  - component: {fileID: -6574143223070479482}
   m_Layer: 0
   m_Name: big_house_with_snow_I_am_going_to_bed_kopiera
   m_TagString: Untagged
@@ -130,3 +131,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.9375, y: 4.9159184}
   m_EdgeRadius: 0
+--- !u!114 &-6574143223070479482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974289038468904554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

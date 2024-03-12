@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2682162637640061750}
   - component: {fileID: 3715815498765020688}
   - component: {fileID: 2645978172659684707}
+  - component: {fileID: 5605532411959108133}
   m_Layer: 0
   m_Name: not_dead_rocks_with_snow_0
   m_TagString: Untagged
@@ -141,3 +142,19 @@ PolygonCollider2D:
       - {x: 0.43564534, y: -0.26270628}
       - {x: 0.43990278, y: 0.07170677}
   m_UseDelaunayMesh: 0
+--- !u!114 &5605532411959108133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5833754362923006289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
