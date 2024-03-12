@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 327076492635297478}
   - component: {fileID: 5910660274573269814}
   - component: {fileID: 8196539695319929851}
+  - component: {fileID: 8040915618687670337}
   m_Layer: 0
   m_Name: house_big_
   m_TagString: Untagged
@@ -146,3 +147,19 @@ PolygonCollider2D:
       - {x: 2.9268382, y: 2.6912112}
       - {x: 2.2967572, y: 3.2129622}
   m_UseDelaunayMesh: 0
+--- !u!114 &8040915618687670337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3591009940204501347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

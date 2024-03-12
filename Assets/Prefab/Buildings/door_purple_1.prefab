@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 792096477228769064}
   - component: {fileID: 5374926660485521062}
   - component: {fileID: 1061782839073414525}
+  - component: {fileID: 7113419440360838626}
   m_Layer: 0
   m_Name: door_purple_1
   m_TagString: Untagged
@@ -157,3 +158,19 @@ PolygonCollider2D:
       - {x: 1.6229784, y: -2.2798147}
       - {x: 1.8764501, y: -2.2792306}
   m_UseDelaunayMesh: 0
+--- !u!114 &7113419440360838626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796500516426336524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

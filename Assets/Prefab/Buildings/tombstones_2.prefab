@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2400266018638607291}
   - component: {fileID: 216176717951211579}
   - component: {fileID: 4038981071660078003}
+  - component: {fileID: -8959860374366278402}
   m_Layer: 0
   m_Name: tombstones_2
   m_TagString: Untagged
@@ -141,3 +142,19 @@ PolygonCollider2D:
       - {x: 0.4845363, y: 0.5322301}
       - {x: 0.35606647, y: 0.65625}
   m_UseDelaunayMesh: 0
+--- !u!114 &-8959860374366278402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6948351203345197956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

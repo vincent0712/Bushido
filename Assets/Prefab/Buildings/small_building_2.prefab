@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9191009000521802306}
   - component: {fileID: 7412322439714329228}
   - component: {fileID: 928039380532374026}
+  - component: {fileID: -4368793181750819688}
   m_Layer: 0
   m_Name: small_building_2
   m_TagString: Untagged
@@ -170,3 +171,19 @@ PolygonCollider2D:
       - {x: 2.3125, y: -2.125}
       - {x: 2.1875, y: -1.75}
   m_UseDelaunayMesh: 0
+--- !u!114 &-4368793181750819688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852888668328079690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e97413669ef364ce5a4992088d341daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff

@@ -45,3 +45,6 @@ TagManager:
   - name: Foreground
     uniqueID: 4114977207
     locked: 0
+  - name: arrow
+    uniqueID: 1820540451
+    locked: 0
