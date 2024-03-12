@@ -18,7 +18,12 @@ public class PlayerAttack : MonoBehaviour
         {
             animator.SetTrigger("isAttacking");
         }
-       
+
+        if (Input.GetKeyDown(KeyCode.Mouse1)) // Assuming left mouse button is used for attack
+        {
+            animator.SetTrigger("fiering");
+        }
+
     }
 
 
