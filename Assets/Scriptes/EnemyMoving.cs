@@ -19,20 +19,24 @@ public class EnemyMoving : MonoBehaviour
         Enemy.updateRotation = false;
         Enemy.updateUpAxis = false;
 
+
+
         
     }
 
     private void Update()
     {
+     
+        targetposition.position = GameObject.FindGameObjectWithTag("Player").transform.position;
         SetTargetPosition();
-        Player.SetDestination(new Vector3(target.x, target.y, transform.position.z));
+        Player.SetDestination(targetposition.position);
         Player.destination = targetposition.position;
         //SetAgentPosition();
     }
 
     void SetTargetPosition()
     {
-        Player.destination = targetposition.position;
+        
 
     }
 

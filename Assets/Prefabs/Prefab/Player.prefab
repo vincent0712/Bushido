@@ -35,7 +35,7 @@ Transform:
   m_GameObject: {fileID: 1212467384402270130}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.86436844, y: -2.1477606, z: 0}
+  m_LocalPosition: {x: 5.3123865, y: -6.521279, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -313,7 +313,7 @@ MonoBehaviour:
   health: 50
   maxHealth: 50
   isDead: 0
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 4014372871263502818}
   hurtSound: {fileID: 0}
   deathSound: {fileID: 0}
   onTakeDamage:
