@@ -1,13 +1,15 @@
 
 using UnityEngine;
 using UnityEngine.AI;
+using static UnityEngine.GraphicsBuffer;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class EnemyMoving : MonoBehaviour
 {
     private Vector3 target;
     NavMeshAgent Player;
     NavMeshAgent Enemy;
-    public Transform targetposition;
+    public UnityEngine.Transform targetposition;
 
     private void Awake()
     {
@@ -26,24 +28,37 @@ public class EnemyMoving : MonoBehaviour
 
     private void Update()
     {
-     
-        targetposition.position = GameObject.FindGameObjectWithTag("Player").transform.position;
-        SetTargetPosition();
-        Player.SetDestination(targetposition.position);
-        Player.destination = targetposition.position;
-        //SetAgentPosition();
+
+        if (Player != null)
+        {
+            SetTargetPosition();
+        }
+ 
+       
+       
     }
 
     void SetTargetPosition()
     {
-        
+
+        //targetposition.position = GameObject.FindGameObjectWithTag("Player").transform.position;
+        Player.SetDestination(targetposition.position);
+        Player.destination = targetposition.position;
+        //SetAgentPosition
+
+
+
 
     }
 
     void SetAgentPosition()
     {
-        Player.SetDestination(new Vector3(target.x, target.y, transform.position.z));
+        if(Player != null)
+        {
+            Player.SetDestination(new Vector3(target.x, target.y, transform.position.z));
+        }
     }
+    
 
 }
 

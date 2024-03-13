@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
     void Awake()
     {
         // Get component references
-
+   
 
         if (onTakeDamage == null)
             onTakeDamage = new UnityEvent();
@@ -55,6 +55,7 @@ public class Health : MonoBehaviour
     {
         health = (int)Mathf.Clamp(health += hp, 0, maxHealth);
     }
+
 
     public void DestroyObject()
     {
