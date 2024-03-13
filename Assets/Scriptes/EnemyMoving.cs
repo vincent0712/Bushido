@@ -18,11 +18,15 @@ public class EnemyMoving : MonoBehaviour
         Enemy = GetComponent<NavMeshAgent>();
         Enemy.updateRotation = false;
         Enemy.updateUpAxis = false;
+
+        
     }
 
     private void Update()
     {
         SetTargetPosition();
+        Player.SetDestination(new Vector3(target.x, target.y, transform.position.z));
+        Player.destination = targetposition.position;
         //SetAgentPosition();
     }
 
