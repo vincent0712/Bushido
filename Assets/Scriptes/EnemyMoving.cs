@@ -28,25 +28,26 @@ public class EnemyMoving : MonoBehaviour
 
     private void Update()
     {
-        if (Player == null)
-        {
-            return;
-        }
-        
+
         if (Player != null)
         {
-            targetposition.position = GameObject.FindGameObjectWithTag("Player").transform.position;
             SetTargetPosition();
-            Player.SetDestination(targetposition.position);
-            Player.destination = targetposition.position;
-            //SetAgentPosition();
         }
+ 
+       
        
     }
 
     void SetTargetPosition()
     {
-        
+
+        //targetposition.position = GameObject.FindGameObjectWithTag("Player").transform.position;
+        Player.SetDestination(targetposition.position);
+        Player.destination = targetposition.position;
+        //SetAgentPosition
+
+
+
 
     }
 
