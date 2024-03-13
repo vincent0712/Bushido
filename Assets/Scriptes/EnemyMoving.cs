@@ -9,6 +9,7 @@ public class EnemyMoving : MonoBehaviour
     private NavMeshAgent nav;
     private Animator animator;
     public GameObject Player;
+    public GameObject Enemy;
     public LayerMask obsticleLayersMask;
     public float viewDistance;
 
@@ -18,11 +19,8 @@ public class EnemyMoving : MonoBehaviour
     }
     void Update()
     {
-        if (Vector2.Distance(transform.position, Player.transform.position) < viewDistance)
-        {
-            nav.destination = Player.transform.position;
-            Debug.DrawLine(transform.position, Player.transform.position);
-        }
+        Vector3 position = Player.transform.position;
+        nav.destination = position;
     }
 }
 
