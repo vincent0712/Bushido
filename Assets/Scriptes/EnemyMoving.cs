@@ -1,27 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+
 using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyMoving : MonoBehaviour
 {
-    private NavMeshAgent nav;
-    private Animator animator;
-    public GameObject Player;
-    public GameObject Enemy;
-    public LayerMask obsticleLayersMask;
-    public float viewDistance;
+    private Vector3 target;
+    NavMeshAgent Player;
+    NavMeshAgent Enemy;
+    public Transform targetposition;
 
     private void Awake()
     {
-        
+        Player = GetComponent<NavMeshAgent>();
+        Player.updateRotation = false;
+        Player.updateUpAxis = false;
+
+        Enemy = GetComponent<NavMeshAgent>();
+        Enemy.updateRotation = false;
+        Enemy.updateUpAxis = false;
     }
-    void Update()
+
+    private void Update()
     {
-        Vector3 position = Player.transform.position;
-        nav.destination = position;
+        SetTargetPosition();
+        //SetAgentPosition();
     }
+
+    void SetTargetPosition()
+    {
+        Player.destination = targetposition.position;
+
+    }
+
+    void SetAgentPosition()
+    {
+        Player.SetDestination(new Vector3(target.x, target.y, transform.position.z));
+    }
+
 }
 
 
