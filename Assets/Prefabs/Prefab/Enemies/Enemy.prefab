@@ -294,11 +294,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 50
-  maxHealth: 10
+  maxHealth: 50
   isDead: 0
   deathEffect: {fileID: 8554722844893833421, guid: 81bf0e42d5a041a4ba9b715968c1094a, type: 3}
-  hurtSound: {fileID: 0}
-  deathSound: {fileID: 0}
+  hurtSound: {fileID: 8300000, guid: 2eae071258dfff248a61f3cd65bd451a, type: 3}
+  deathSound: {fileID: 8300000, guid: a127a6ac97269a14d983ab1b6f9bbe44, type: 3}
   onTakeDamage:
     m_PersistentCalls:
       m_Calls:
@@ -310,6 +310,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2113126469908714596}
+        m_TargetAssemblyTypeName: Health, Assembly-CSharp
+        m_MethodName: TakeDamage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
