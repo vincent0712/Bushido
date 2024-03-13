@@ -28,12 +28,12 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         // Compensate rotation for x: navmesh plane, y: sprite rotation
-        //transform.rotation = Quaternion.Euler(-90f, -90f, 0f);
+        transform.rotation = Quaternion.Euler(-90f, -90f, 0f);
 
         // Uncomment if you don't need to manualy owerwrite rotation
         nav.updateRotation = false;
         nav.updateUpAxis = false;
-        //player = GameObject.Find("Player");
+        player = GameObject.Find("Player");
         player = GameManager.instance.player;
     }
 

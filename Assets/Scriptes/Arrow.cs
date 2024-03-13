@@ -19,8 +19,9 @@ public class Arrow : MonoBehaviour
     // Triggers if one or both colliders is triggers
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Player"))
             return;
+            
 
         // Try get health from colliding object
         Health health = collision.gameObject.GetComponent<Health>();
